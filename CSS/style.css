@@ -43,6 +43,10 @@ li {
     padding: 120px 0;
 }
 
+.section-team {
+    padding: 120px 0;
+}
+
 .container {
     max-width: 1158px;
     width: 100%;
@@ -120,7 +124,7 @@ li {
 }
 
 
-.header.container {
+.header-container {
     display: flex;
     align-items: center;
     gap: 40px;
@@ -165,6 +169,7 @@ li {
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
+    padding: 16px 32px;
 
 
 }
@@ -226,16 +231,18 @@ li {
 
 /*team section*/
 
+/*
 .team {
     background-color: var(--color-firstlight);
 
-}
+} */
 
-.team h2 {
+.our-team {
     font-size: 36px;
     line-height: 1.111;
     letter-spacing: 0.02em;
     text-align: center;
+
 }
 
 .team h3 {
@@ -255,10 +262,6 @@ li {
     text-align: center;
 }
 
-.team li {
-    background-color: var(--color-withlight);
-
-}
 
 
 
@@ -273,8 +276,11 @@ li {
 
 .team-photo {
     flex-basis: calc((100%-3*24px)/4);
-    border: solid 1px var(--color-border);
     border-radius: 0px 0px 4px 4px
+}
+
+.section-team {
+    background-color: var(--color-firstlight);
 }
 
 /*footer section*/
@@ -326,10 +332,10 @@ li {
 }
 
 .buttons {
-    padding-bottom: 72px;
     display: flex;
     gap: 24px;
     justify-content: center;
+
 }
 
 .btn {
@@ -345,6 +351,7 @@ li {
     list-style: none;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 12px 24px;
 
 }
 
@@ -359,20 +366,22 @@ li {
 }
 
 
-.rows {
+.section-rows {
     padding-top: 96px;
     padding-bottom: 120px;
 }
 
-.rows h2 {
+.section-rows h2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-primery);
+    padding-bottom: 8px;
+    margin: 0;
 }
 
-.rows p {
+.section-rows p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -382,7 +391,8 @@ li {
 /*servises section*/
 
 .servises {
-    padding-bottom: 48px;
+    margin-bottom: 48px;
+    margin-top: 72px;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
@@ -395,9 +405,9 @@ li {
 
 .servises-items {
     text-align: left;
+    border-left: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    padding: 32px 0 0 16px;
 
-}
-
-.servises-service {
-    text-align: left;
 }
