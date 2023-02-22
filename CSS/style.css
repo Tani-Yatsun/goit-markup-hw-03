@@ -24,6 +24,7 @@ h4,
 h5,
 h6 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 ul {
@@ -85,6 +86,8 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
+    ;
 }
 
 
@@ -113,6 +116,7 @@ ul {
 .address a {
     color: var(--color-secondary);
     font-size: 16px;
+    font-style: normal;
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -127,7 +131,6 @@ ul {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .header-nav {
@@ -147,7 +150,7 @@ ul {
     letter-spacing: 0.02em;
     text-align: center;
     margin: 0 auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 
@@ -185,7 +188,7 @@ ul {
 
 /*main title section*/
 
-.title h3 {
+.title-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -194,7 +197,7 @@ ul {
 
 }
 
-.title p {
+.title-about {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -246,7 +249,7 @@ ul {
 
 }
 
-.team h3 {
+.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -255,7 +258,7 @@ ul {
     text-align: center;
 }
 
-.team p {
+.team-job {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -399,8 +402,8 @@ ul {
 }
 
 .servises-photo {
-    /*flex-basis: calc((100%-2*24px)/3);*/
-    text-align: center;
+    flex-basis: calc((100% - 2 * 24px) / 3);
+
 }
 
 .servises-items {
